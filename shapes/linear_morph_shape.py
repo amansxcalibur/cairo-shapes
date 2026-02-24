@@ -1,10 +1,11 @@
-import gi
-
-gi.require_version("Gtk", "3.0")
-from gi.repository import Gtk, GLib
 import cairo
 import threading
-from utils.morph import Morph
+
+from morph.linear_morph import Morph
+
+import gi
+gi.require_version("Gtk", "3.0")
+from gi.repository import Gtk, GLib
 
 
 class ShapeMorph(Gtk.DrawingArea):

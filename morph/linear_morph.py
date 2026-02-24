@@ -1,6 +1,6 @@
 import math
+from typing import List
 from pprint import pprint
-from typing import List, Tuple
 from dataclasses import dataclass
 
 @dataclass

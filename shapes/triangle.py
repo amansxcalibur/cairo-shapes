@@ -1,8 +1,9 @@
+import cairo
+from typing import Tuple
+
 import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
-import cairo
-from typing import Tuple
 
 class Triangle(Gtk.DrawingArea):
     def __init__(

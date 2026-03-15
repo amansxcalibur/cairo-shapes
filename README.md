@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer maintained. See [expressive-shapes](https://www.github.com/amansxcalibur/expressive-shapes) for published packages and more demos.
+
 I like the dots and shapes, and I think they like me too. <br/>
 
 
